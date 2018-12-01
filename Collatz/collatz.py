@@ -7,9 +7,8 @@ def collatz(t):
 count = 0
 num =1
 
-while num <> 0: 
+while count <> 0: 
  
-
  while num <> 1:
     print collatz(num)
     num = collatz(num)
