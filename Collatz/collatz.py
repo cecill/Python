@@ -4,15 +4,15 @@ def collatz(t):
  else:
   return (t // 2)
   
-count = 0
-num =1
+counter = 0
+num = 1
 
-while count <> 0: 
+while counter <> 0: 
  
- while num <> 1:
+ while num <> 100:
     print collatz(num)
     num = collatz(num)
-    count = count + 1
- print "Number =", num, " Iterations =",count
+    counter = counter + 1
+ print "Number =", num, " Iterations =",counter
  num = num + 1 
  
