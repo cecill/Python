@@ -7,12 +7,12 @@ def collatz(t):
 counter = 0
 num = 1
 
-while counter <> 0: 
+while counter < 100000: 
  
- while num <> 100:
-    print collatz(num)
-    num = collatz(num)
-    counter = counter + 1
+ while num < 100:
+   print collatz(num)
+   num = collatz(num)
+   counter = counter + 1
  print "Number =", num, " Iterations =",counter
  num = num + 1 
  
